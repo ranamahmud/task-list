@@ -116,5 +116,5 @@ function removeFromLS(taskItem) {
         }
     })
 
-    localstorage.setItem('tasks', JSON.stringify(tasks))
+    localStorage.setItem('tasks', JSON.stringify(tasks))
 }
