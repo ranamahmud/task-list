@@ -50,6 +50,8 @@ function removeTask(e) {
 
 function clearTask() {
     taskList.innerHTML = '';
+
+    localStorage.clear();
 }
 
 
